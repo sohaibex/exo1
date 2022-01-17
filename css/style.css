@@ -12,6 +12,7 @@ nav>div
 body{
     font-family: 'MyFont', serif;
     font-weight: bold;
+    
 }
 
 .carousel-caption h1 {
@@ -92,6 +93,10 @@ h2{
 section
 {
   margin-top: 2%;
+}
+
+i{
+  color: #25D366;
 }
 @keyframes logo {
   0%   {left:0px; }
