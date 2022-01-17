@@ -1,0 +1,26 @@
+<script>
+    function traduire() {
+
+        var fr = [manger,ordinateur,musique,jeux];
+        var eng = [eat,computer,music,games];
+        var phrfr = document.getElementById("phrase").value; // string
+        var arrfr = phrfr.split(''); // array
+        var arreng = []; // array
+
+            for (let a in arrfr) {
+                if (fr.indexOf(a) != null) {
+                    arreng.push(eng[indexOf(a)]);
+                }
+                else{
+                    arreng.push(a);
+                }
+            }
+        var phrang = arreng.join(''); // string
+        return document.getElementById("phraseang").value = phrang;
+    }
+    
+</script>
+
+<input type="text" id="phrase">
+<input type="text" id="phraseang">
+<button onclick="traduire()">Traduire</button>

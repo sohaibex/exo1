@@ -1,3 +1,6 @@
+* {
+        margin: 0;
+}
 nav>div
 {
     border-bottom: 5px solid #E7A72D;
@@ -6,6 +9,7 @@ nav>div
 @font-face{
 	font-family: "MyFont";
 	src: url('fonts/font.ttf');
+  font-size: 8%;
 }
 
 
@@ -72,15 +76,23 @@ body{
 #quisommesnous
 {
 width: 100%;
-height: 600px;
- /* background-image: url("/images/parallax.jpg");
+height: 300px;
+ background-color: rgb(231, 167,45,0.5); 
+ background-image: url("/images/parallax.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: rgb(231, 167,45,0.5); */
-}
 
+}
+.quip
+{
+  color: white;
+}
+.titlep
+{
+  color: #e7a22d;
+}
 h2{
     font-size: 2rem;
     color: #131313;
@@ -111,3 +123,19 @@ i{
     display: none;
   }
 }
+
+footer{
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+footer>p{
+    color: orange;
+    background-color: black;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+
+}
+
