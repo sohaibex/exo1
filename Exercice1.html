@@ -1,0 +1,17 @@
+<script>
+    function power() {
+        var a = document.getElementById("number1").value;
+        var b = document.getElementById("number2").value;
+        if (a !== undefined && b !== undefined) {
+            var r = math.pow(a,b);
+            document.getElementById("result").value = r;
+        } else {
+            alert("Veuillez insérer des valeurs")
+        }
+    }
+</script>
+
+<input type="number" id="number1" required>
+<input type="number" id="number2" required>
+<button onclick="power()">Calculer</button>
+<input type="number" id="result" readonly>
