@@ -1,0 +1,42 @@
+div
+{
+    border-bottom: 5px solid #E7A72D;
+}
+
+body{
+     
+    src: url('fonts/font.ttf');
+ 
+    font-size: 2em;
+}
+
+.nav-link
+{
+    color:#E7A72D !important;
+}
+
+.nav-link:hover
+{
+    color:#131313 !important;
+}
+
+#logo
+{
+      position: relative;
+  animation-name: logo;
+  animation-duration: 2s;
+}
+
+@keyframes logo {
+  0%   {left:0px; }
+  25%  { left:50px; }
+  50%  { left:50px; }
+  75%  {left:0px;}
+  100% {left:0px; }
+}
+
+@media only screen and (max-width: 500px) {
+  #logo {
+    display: none;
+  }
+}
